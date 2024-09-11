@@ -1,0 +1,53 @@
+header {
+  position: fixed; /* 固定在顶部 */
+  top: 0; /* 距离顶部0 */
+  width: 100%; /* 宽度100% */
+  background-color: white; /* 背景颜色 */
+  z-index: 1000; /* 确保在其他元素之上 */
+}
+body {
+  padding-top: 50px; /* 为了避免内容被导航遮挡 */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a5a5a5;
+  }
+
+  li {
+    float: left;
+    /*display: inline-block; 
+    margin-right: 20px; */
+  }
+
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ba7777;
+  }
+  li a:active {
+    background-color: rgb(112, 112, 231);
+  }
+  img {
+    vertical-align: middle; /* 使图像垂直居中对齐 */
+}
+ body{
+    background: linear-gradient(135deg, pink, blue);
+ }
+ button{
+  background-color:dodgerblue;
+  color:white;
+  width: 100px;
+  height: 44px;
+  border:0;
+  font-size: 16px;			
+    border-radius: 30px;
+} 
